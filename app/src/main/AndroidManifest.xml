@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trabalhopds_2022">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Reflorestadores Unidos SA"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TrabalhoPDS_2022">
+        <activity
+            android:name=".Fileira04"
+            android:exported="false" />
+        <activity
+            android:name=".Fileira03"
+            android:exported="false" />
+        <activity
+            android:name=".Fileira02"
+            android:exported="false" />
+        <activity
+            android:name=".Formulario"
+            android:exported="false" />
+        <activity
+            android:name=".formu"
+            android:exported="false" />
+        <activity
+            android:name=".Fileira01"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
